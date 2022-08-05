@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4f05a9f818.js" crossorigin="anonymous"></script>
+    <style>
+        .outer-box{
+            border: 0.25px solid gray;
+            width: 850px;
+            height: 600px;
+            position: relative;
+            top: 10px;
+            left: 240px;
+        }
+        .list{
+            color: #00A5EC;
+        }
+        .task{
+            background-color: white;
+            padding-left: 60px;
+        }
+        .box{
+            background-color:#7B7B7B29;
+            height: 520px;   
+        }
+        .left{
+            position: relative;
+            top: 30px;
+            left: 250px;
+        }
+        #arrow{
+            font-size: 25px;
+            display: inline;
+            color: black;
+        }
+        .back{
+            position: absolute;
+            padding-top: 5px;
+            color: black;
+        }
+        #plus{
+            font-size: 25px;
+            color: #00A5EC;
+        }
+        #add{
+            position: absolute;
+            padding-top: 5px;
+            color: black;
+        }
+        .addnewtask{
+            position: relative;
+            top: 5px;
+            left: 450px;
+        }
+        .parisbox{
+            background-color: white;
+            margin: 10px;
+            width: 300px;
+            height: 240px;
+            border-radius: 10px;
+            position: absolute;
+            top: 170px;
+            left: 250px;
+        }
+        .flex-item-head{
+           color: #00A5EC;
+           font-family: sans-serif;
+           font-size: 15px;
+           text-align: left;
+           /* padding-top: 20px;
+           padding-left: 20px;
+           padding-bottom: 10px; */
+           padding: 20px 0px 10px 20px;
+        }
+        .square-check{
+           color: #C2C2C2;
+           font-size: 25px;
+           padding-left: 20px;
+           padding-top: 10px;
+        }
+        .line-through{
+           font-size: 15px;
+           text-decoration: line-through;
+        }
+        .checkbox{
+           padding-top: 10px;
+           padding-left: 18px;
+        }
+        .larger-checkbox{
+           width: 21px;
+           height: 21px;
+    
+        } 
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="task"><h1><b>Tasks</b>&nbsp;<b class="list">List</b></h1></div>
+        <div class="box">
+            <div class="left">
+               <a href="./shubh.html" style="text-decoration: none;"> <i id="arrow" class="fa-solid fa-circle-arrow-left"></i>
+                <span class="back">&nbsp;Back</span></a>
+            </div>
+            <div class="addnewtask">
+                  <a href="./shubh4.html">  <i id="plus" class="fa-solid fa-circle-plus"></i>
+                    <span id="add">&nbsp;Add New Task</span></a>
+            </div>
+            
+            
+            
+            
+            <div class="parisbox">
+                <div class="flex-item-head">Trip to Paris</div>
+                <div><hr></div>
+                <div class="square-check">
+                    <i class="fa-solid fa-square-check"></i>
+                    <span class="line-through">Visit Church</span>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" class="larger-checkbox">Shopping 
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>

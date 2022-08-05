@@ -1,0 +1,88 @@
+.outer-boundry{
+    border: 0.25px solid gray;
+    width: 850px;
+    position: relative;
+    top: 10px;
+    left: 240px;
+}
+
+
+.list{
+    color: #00A5EC;
+}
+
+
+.task{
+    background-color: white;
+    padding-left: 60px;
+    
+}
+
+.addnewtask{
+    position: absolute;
+    top: 90px;
+    left: 70%;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#plus{
+    color: #00A5EC;
+    font-size: 30px;
+}
+#add{
+    padding-top: 5px;
+    color: #00A5EC;
+}
+
+
+.flex-container{
+    display: flex;
+    background-color: rgb(234, 234, 234);
+    padding: 50px;
+    flex-flow: row wrap;
+
+}
+
+.flex-item{
+    background-color: white;
+    margin: 10px;
+    width: 220px;
+    height: 240px;
+    border-radius: 10px;
+    
+}
+
+.flex-item-head{
+    color: #00A5EC;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px; */
+    padding: 20px 0px 10px 20px;
+}
+
+.square-check{
+    color: #C2C2C2;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.line-through{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.checkbox{
+    padding-top: 10px;
+    padding-left: 18px;
+}
+.larger-checkbox{
+     width: 21px;
+     height: 21px;
+    
+}
+
+
